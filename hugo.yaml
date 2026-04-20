@@ -1,0 +1,97 @@
+baseURL: "https://alperenaksoy.github.io/blog-site/"
+languageCode: en
+title: Alperen Aksoy
+theme: PaperMod
+
+paginate: 10
+
+taxonomies:
+  tag: tags
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # required for PaperMod search
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+menu:
+  main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 40
+
+params:
+  env: production
+  title: Alperen Aksoy
+  description: "Personal blog and portfolio of Alperen Aksoy — freelance software developer writing about tech, AI, philosophy, literature, and more."
+  author: Alperen Aksoy
+
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+
+  homeInfoParams:
+    Title: "Hi, I'm Alperen 👋"
+    Content: >
+      Software engineer at Forschungszentrum Jülich × CERN · Freelance full-stack developer.
+      I write about tech, AI, philosophy, literature, and whatever else crosses my mind.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/aksoyalpi"
+    - name: linkedin
+      url: "https://linkedin.com/in/alperen-aksoy"
+    - name: email
+      url: "mailto:kontakt@alperenaksoy.de"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    linkFullImages: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false

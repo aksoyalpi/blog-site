@@ -30,6 +30,8 @@ But here's the good news: the skills that survive are the ones that were always 
 
 ## How to Adapt
 
+![5 Strategies to Adapt to AI: Problem Understanding, Use AI as Thinking Tool, Go Deeper on Hard Problems, Master Communication, Stay Curious](adapt-se.svg)
+
 **1. Stop optimizing for code output. Optimize for problem understanding.**
 
 Before you generate a line of code, spend time understanding the problem. Write it down. Ask questions. Sketch it out. The better your problem statement, the better the code - AI-generated or not.

@@ -22,4 +22,4 @@ Sole developer — handled the full lifecycle from requirement engineering throu
 
 ---
 
-*More projects on my [GitHub profile](https://github.com/alperenaksoy).*
+*More projects on my [GitHub profile](https://github.com/aksoyalpi).*
